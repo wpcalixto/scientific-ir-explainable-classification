@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.DS_Store
+.venv/
+dados/
+resultados/*
+!resultados/adequacao_20261110/
+resultados/adequacao_20261110/*
+!resultados/adequacao_20261110/F10_reexec/

@@ -1,0 +1,28 @@
+{
+ "versao": "v2",
+ "aprovado": "Prof. Pacheco, 10/11/2026 (PROPOSTA_CONSULTAS_COLETA_v2_20261110.md + faceta EM em metamateriais e is_retracted:false, revistos a 10/11)",
+ "fonte": "OpenAlex /works, filtro title_and_abstract.search (booleano no servidor)",
+ "filtros_comuns": "language:en,type:article|review,publication_year:<2026,is_retracted:false",
+ "hst": {
+  "microarranjos": "microarray",
+  "radiomica": "radiomic",
+  "metamateriais": "metamaterial|metasurface"
+ },
+ "consultas": {
+  "microarranjos": {
+   "busca_A": "microarray AND (\"feature selection\" OR \"variable selection\" OR \"feature ranking\" OR \"gene selection\") AND (AUC OR ROC OR \"area under the curve\" OR \"area under curve\" OR \"receiver operating characteristic\")",
+   "busca_B": "(\"gene expression\" OR \"expression profiling\" OR \"expression profile\" OR transcriptome OR transcriptomic OR \"RNA-seq\" OR \"RNA sequencing\" OR omics OR genomic OR \"expression data\") AND (\"feature selection\" OR \"variable selection\" OR \"feature ranking\" OR \"gene selection\") AND (AUC OR ROC OR \"area under the curve\" OR \"area under curve\" OR \"receiver operating characteristic\" OR classification OR prediction)",
+   "busca_C": "(\"gene expression\" OR \"expression profiling\" OR \"expression profile\" OR transcriptomic OR transcriptome OR \"RNA-seq\" OR \"gene signature\" OR \"omics data\") AND (\"feature selection\" OR \"variable selection\" OR \"feature ranking\" OR \"gene selection\") AND (AUC OR ROC OR \"area under the curve\" OR \"area under curve\" OR \"receiver operating characteristic\")"
+  },
+  "radiomica": {
+   "busca_A": "radiomics AND (\"feature selection\" OR \"variable selection\" OR \"feature extraction\" OR \"feature reduction\") AND (AUC OR ROC OR \"area under the curve\" OR \"area under curve\" OR \"receiver operating characteristic\")",
+   "busca_B": "(\"medical imaging\" OR \"medical image\" OR radiology OR \"computed tomography\" OR \"magnetic resonance imaging\" OR MRI OR \"positron emission tomography\" OR ultrasound OR mammography OR \"texture analysis\" OR \"imaging biomarker\" OR \"quantitative imaging\") AND (\"feature selection\" OR \"variable selection\" OR \"feature extraction\" OR \"feature reduction\") AND (AUC OR ROC OR \"area under the curve\" OR \"area under curve\" OR \"receiver operating characteristic\" OR classification OR prediction)",
+   "busca_C": "(texture OR \"quantitative imaging\" OR \"imaging biomarker\" OR \"imaging feature\" OR \"image feature\" OR \"handcrafted feature\" OR \"image-derived\") AND (\"computed tomography\" OR \"magnetic resonance imaging\" OR MRI OR \"positron emission tomography\" OR ultrasound OR mammography OR \"medical imaging\" OR \"medical image\") AND (\"feature selection\" OR \"variable selection\" OR \"feature extraction\" OR \"feature reduction\") AND (AUC OR ROC OR \"area under the curve\" OR \"area under curve\" OR \"receiver operating characteristic\")"
+  },
+  "metamateriais": {
+   "busca_A": "(metamaterial OR metasurface) AND (electromagnetic OR optical OR photonic OR acoustic OR microwave OR terahertz OR plasmonic OR antenna OR wave) AND (\"machine learning\" OR \"deep learning\" OR \"neural network\" OR \"inverse design\" OR \"surrogate model\")",
+   "busca_B": "(\"artificial electromagnetic material\" OR \"engineered material\" OR \"periodic structure\" OR \"subwavelength structure\" OR \"frequency selective surface\" OR \"photonic crystal\" OR \"split-ring resonator\" OR \"electromagnetic structure\") AND (electromagnetic OR optical OR photonic OR acoustic OR microwave OR terahertz OR plasmonic OR antenna OR wave) AND (\"machine learning\" OR \"deep learning\" OR \"neural network\" OR \"inverse design\" OR \"surrogate model\" OR optimization OR \"genetic algorithm\" OR \"evolutionary algorithm\")",
+   "busca_C": "(\"subwavelength structure\" OR \"periodic structure\" OR \"frequency selective surface\" OR \"split-ring resonator\" OR \"artificial electromagnetic material\" OR \"unit cell\" OR \"electromagnetic response\" OR \"resonant structure\") AND (electromagnetic OR optical OR photonic OR acoustic OR microwave OR terahertz OR plasmonic OR antenna OR wave) AND (\"machine learning\" OR \"deep learning\" OR \"neural network\" OR \"inverse design\" OR \"surrogate model\")"
+  }
+ }
+}

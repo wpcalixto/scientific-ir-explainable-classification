@@ -1,0 +1,24 @@
+This record is distributed under two licenses.
+
+1. Source code (codigo/, the scripts in resultados/adequacao_20261110/F10_reexec/, environment/*.sh, tests/): MIT License
+
+Copyright (c) 2026 Viviane M. Gomes Pacheco, Clóves Gonçalves Rodrigues, Antonio Paulo Coimbra, Wesley Pacheco Calixto
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files
+(the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge,
+publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so,
+subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE
+FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+2. Data, results, metadata and documentation (dados/, resultados/, metadata/, docs/, documentation/, environment/*.txt):
+Creative Commons Attribution 4.0 International (CC BY 4.0) — https://creativecommons.org/licenses/by/4.0/legalcode
+
+Third-party content keeps its own terms: OpenAlex metadata (CC0), Semantic Scholar, Scopus, Web of Science and Elicit
+records (bibliographic identifiers and metadata returned by each platform, subject to the platform terms), and the public
+screening benchmarks in dados/externos/ (Cohen et al. 2006; Howard et al. 2016 via SYNERGY), which must be cited from their sources.

@@ -1,0 +1,15 @@
+pandas
+numpy
+scipy
+scikit-learn
+statsmodels
+gensim
+shap
+lime
+rank_bm25
+matplotlib
+matplotlib-venn
+bibtexparser<2
+openpyxl
+requests
+tqdm
