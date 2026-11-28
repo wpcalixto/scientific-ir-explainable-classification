@@ -1,6 +1,9 @@
 # Changelog
 
-## v1.0.0 — 2026-11-27
+## v1.0.1 — 2026-11-27
+- Author order corrected: Wesley Pacheco Calixto is the first author. No change to code, data or results.
+
+## v1.0.0 — 2026-11-27 (DOI 10.5281/zenodo.19791096)
 - First public version of the reproducibility package of the article *Protocol for scientific information retrieval with explainable text classification: design and cross-domain evaluation*.
 - Replaces the unpublished draft of 2026-04-26 (record 19791096; scripts of the earlier pipeline and a single enriched CSV), which was never published.
 - Code: stages F2–F21 and F008 of the final pipeline (`codigo/adequacao_20261110/`) and the F10 re-execution scripts (`resultados/adequacao_20261110/F10_reexec/`).

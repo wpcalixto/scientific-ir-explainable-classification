@@ -1,4 +1,4 @@
-# Quality-control report (v1.0.0, 2026-11-27)
+# Quality-control report (v1.0.1, 2026-11-27)
 
 - Python files re-annotated: 81; abstract syntax tree identical before/after (path prefix normalized): **81/81**.
 - Shell scripts re-annotated: 4.

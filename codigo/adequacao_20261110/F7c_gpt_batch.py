@@ -14,7 +14,7 @@ Repository:
     scientific-ir-explainable-classification
 
 Version:
-    v1.0.0
+    v1.0.1
 
 Date:
     2026-11-27
@@ -23,10 +23,10 @@ Developer:
     Prof. Wesley Pacheco Calixto
 
 Authors:
+    Wesley Pacheco Calixto; ORCID 0000-0002-1928-4432; ISR/University of Coimbra; EMC/UFG; CPDT/IFG
     Viviane M. Gomes Pacheco; ORCID 0000-0003-3693-4377; EMC/UFG; PUC Goias; CPDT/IFG
     Clóves Gonçalves Rodrigues; ORCID 0000-0003-0140-9847; PUC Goias
     Antonio Paulo Coimbra; ORCID 0000-0003-3780-2405; ISR/University of Coimbra
-    Wesley Pacheco Calixto; ORCID 0000-0002-1928-4432; ISR/University of Coimbra; EMC/UFG; CPDT/IFG
 
 Corresponding author:
     Wesley Pacheco Calixto, wesley.pacheco@ufg.br
@@ -36,7 +36,7 @@ License:
 
 Citation:
     If you use this code, please cite:
-    Pacheco, V. M. G., Rodrigues, C. G., Coimbra, A. P., & Calixto, W. P. (2026). Reproducibility package for a protocol for scientific information retrieval with explainable text classification: code, bibliographic search datasets, LLM and human relevance judgements and analysis results (v1.0.0) [Data set and software]. Zenodo. https://doi.org/10.5281/zenodo.19791096
+    Calixto, W. P., Pacheco, V. M. G., Rodrigues, C. G., & Coimbra, A. P. (2026). Reproducibility package for a protocol for scientific information retrieval with explainable text classification: code, bibliographic search datasets, LLM and human relevance judgements and analysis results (v1.0.1) [Data set and software]. Zenodo. https://doi.org/10.5281/zenodo.24615095
 
 Related publication:
     Protocol for scientific information retrieval with explainable text classification: design and cross-domain evaluation (manuscript; DOI not yet available)

@@ -5,14 +5,14 @@
 ### 1. Identification
 
 - **Title:** Reproducibility package for a protocol for scientific information retrieval with explainable text classification: code, bibliographic search datasets, LLM and human relevance judgements and analysis results
-- **Version:** v1.0.0 (2026-11-27)
+- **Version:** v1.0.1 (2026-11-27)
 - **Resource type:** Dataset and Software (combined reproducibility package)
-- **DOI:** [10.5281/zenodo.19791096](https://doi.org/10.5281/zenodo.19791096)
+- **DOI:** [10.5281/zenodo.24615095](https://doi.org/10.5281/zenodo.24615095)
 - **Authors:**
+  - Wesley Pacheco Calixto; ORCID 0000-0002-1928-4432; ISR/University of Coimbra; EMC/UFG; CPDT/IFG
   - Viviane M. Gomes Pacheco; ORCID 0000-0003-3693-4377; EMC/UFG; PUC Goias; CPDT/IFG
   - Clóves Gonçalves Rodrigues; ORCID 0000-0003-0140-9847; PUC Goias
   - Antonio Paulo Coimbra; ORCID 0000-0003-3780-2405; ISR/University of Coimbra
-  - Wesley Pacheco Calixto; ORCID 0000-0002-1928-4432; ISR/University of Coimbra; EMC/UFG; CPDT/IFG
 - **Corresponding author:** Wesley Pacheco Calixto, wesley.pacheco@ufg.br
 - **Language:** English (documentation and headers); Portuguese in file names, column names, string literals and logs
 - **License:** code under MIT; data, results and documentation under CC BY 4.0 (see `LICENSE`)
@@ -33,7 +33,7 @@ It allows installation, minimal execution, traceability of inputs and outputs, r
 ### 4. Repository structure
 
 ```text
-scientific-ir-explainable-classification_v1.0.0/
+scientific-ir-explainable-classification_v1.0.1/
 ├── CHANGELOG.md
 ├── CITATION.cff
 ├── LICENSE
@@ -66,4 +66,4 @@ See `docs/limitations.md`.
 
 ### 8. How to cite
 
-Pacheco, V. M. G., Rodrigues, C. G., Coimbra, A. P., & Calixto, W. P. (2026). Reproducibility package for a protocol for scientific information retrieval with explainable text classification: code, bibliographic search datasets, LLM and human relevance judgements and analysis results (v1.0.0) [Data set and software]. Zenodo. https://doi.org/10.5281/zenodo.19791096
+Calixto, W. P., Pacheco, V. M. G., Rodrigues, C. G., & Coimbra, A. P. (2026). Reproducibility package for a protocol for scientific information retrieval with explainable text classification: code, bibliographic search datasets, LLM and human relevance judgements and analysis results (v1.0.1) [Data set and software]. Zenodo. https://doi.org/10.5281/zenodo.24615095
